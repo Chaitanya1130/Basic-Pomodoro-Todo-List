@@ -1,0 +1,58 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#watchBtnId{
+  align-items: center;
+  color: lightblue;
+  padding: 10px;
+  font-size: 20px;
+}
+#resetBtn{
+  padding: 10px;
+  margin-top: 10px;
+}
+#stopClock{
+  /*font-size: 20px;*/
+  padding: 10px;
+  color: white;
+  margin-top: 10px;
+}
+#watchManager {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+#TaskHeading{
+  font-size: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: light dark;
+}
+#taskManager {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: black;
+  margin: auto;
+  text-align: center;
+  word-wrap: break-word;
+}
+#taskItems{
+  color: white;
+}
